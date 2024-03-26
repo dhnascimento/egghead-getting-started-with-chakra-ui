@@ -1,4 +1,5 @@
 import { Container, Flex, VStack } from "@chakra-ui/react";
+import Details from "/src/sections/details.jsx";
 
 const IndexPage = () => (
     <Container maxW="container.xl" p={0}>
@@ -9,7 +10,9 @@ const IndexPage = () => (
                 p={10}
                 spacing={10}
                 alignItems="flex-start"
-            ></VStack>
+            >
+                <Details />
+            </VStack>
             <VStack
                 w="full"
                 h="full"
