@@ -1,6 +1,6 @@
-import { Container, Flex, VStack } from "@chakra-ui/react";
-import Details from "../src/sections/details.jsx";
-import Cart from "../src/sections/cart.jsx";
+import { Container, Flex } from "@chakra-ui/react";
+import Details from "../src/sections/details";
+import Cart from "../src/sections/cart";
 
 const IndexPage = () => (
     <Container maxW="container.xl" p={0}>
